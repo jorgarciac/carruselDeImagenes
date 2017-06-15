@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Jorge García Castro">
+	<title>Carrusel de Imagenes</title>
+	<link rel="stylesheet" type="text/css" href="./css/estilo.css">
+</head>
+<body>
+	<div id="slider">
+		<img src="img/1.jpg" alt="">
+		<img src="img/2.jpg" alt="">
+		<img src="img/3.jpg" alt="">
+		<img src="img/4.jpg" alt="">
+		<img src="img/5.jpg" alt="">
+		<img src="img/6.jpg" alt="">
+		<img src="img/7.jpg" alt="">
+		<img src="img/8.jpg" alt="">
+		<img src="img/9.jpg" alt="">
+	</div>
+	<div>
+		<table>
+			<tr>
+				<td id="izquierda">
+					<input type="button" value="anterior" onclick="cambiarManual('IZQ')">
+				</td>
+				<td id="derecha">
+					<input type="button" value="siguiente" onclick="cambiarManual('DER')">
+				</td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="./js/jslider.js"></script>			
+</body>
+</html>
